@@ -1,7 +1,7 @@
 
 # Commit Linting Example
 
-An example repo to demonstrate commit linting in the terminal using git hooks and convenitional commit syntax
+An example repo to demonstrate commit linting in the terminal using git hooks and conventional commit syntax
 
 
 ## Run Locally
