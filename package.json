@@ -30,5 +30,8 @@
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
     }
+  },
+  "engines": {
+    "node": ">=14.18"
   }
 }
