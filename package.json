@@ -1,39 +1,44 @@
 {
-  "name": "commit-linting-example",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "commit": "git-cz",
-    "prepare": "husky install"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.5.0",
-    "@commitlint/config-conventional": "^17.4.4",
-    "@commitlint/cz-commitlint": "^17.5.0",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
-    "commitizen": "^4.3.0",
-    "husky": "^8.0.0",
-    "prettier": "^2.8.7",
-    "typescript": "^4.9.3",
-    "vite": "^4.2.0"
-  },
-  "prettier": {},
-  "config": {
-    "commitizen": {
-      "path": "@commitlint/cz-commitlint"
+    "name": "commit-linting-example",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "commit": "git-cz",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.5.0",
+        "@commitlint/config-conventional": "^17.4.4",
+        "@commitlint/cz-commitlint": "^17.5.0",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@vitejs/plugin-react": "^3.1.0",
+        "commitizen": "^4.3.0",
+        "husky": "^8.0.0",
+        "prettier": "^2.8.7",
+        "typescript": "^4.9.3",
+        "vite": "^4.2.0"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    },
+    "config": {
+        "commitizen": {
+            "path": "@commitlint/cz-commitlint"
+        }
+    },
+    "engines": {
+        "node": ">=14.18"
     }
-  },
-  "engines": {
-    "node": ">=14.18"
-  }
 }
