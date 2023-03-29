@@ -1,6 +1,10 @@
-# Commit Linting Example
+# Code Quality Playground
 
-An example repo to demonstrate commit linting in the terminal using git hooks and conventional commit syntax
+An example repo to demonstrate various aspects of code quality tooling:
+
+-   Commit linting in the terminal using git hooks and conventional commit syntax.
+-   unit test and front-end tests with vitest (to be completed).
+-   automated test codegen, e2e/integration tests and cross browser testing with playwright (to be completed).
 
 ## Run Locally
 
@@ -28,7 +32,7 @@ Start the server
   yarn dev
 ```
 
-## Usage
+## Commit Linting Usage
 
 To test the commit-linting make an edit within the repo and commit the changes using a very relaxed commit message e.g.:
 
