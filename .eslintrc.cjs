@@ -19,6 +19,7 @@ module.exports = {
     plugins: ['react'],
     rules: {
         '@typescript-eslint/explicit-function-return-type': 'off',
+        'import/no-absolute-path': 'off',
     },
     settings: {
         react: {

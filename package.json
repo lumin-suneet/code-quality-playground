@@ -11,7 +11,7 @@
         "prepare": "husky install",
         "prettier:check": "prettier -c .",
         "prettier:write": "prettier -w .",
-        "lint:check": "eslint --fix-dry-run .",
+        "lint:check": "eslint .",
         "lint:write": "eslint --fix ."
     },
     "dependencies": {
