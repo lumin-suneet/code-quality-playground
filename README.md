@@ -3,7 +3,7 @@
 An example repo to demonstrate various aspects of code quality tooling:
 
 -   Commit linting in the terminal using git hooks and conventional commit syntax.
--   unit test and front-end tests with vitest (to be completed).
+-   unit test and front-end tests with vitest and @testing-library/react.
 -   automated test codegen, e2e/integration tests and cross browser testing with playwright (to be completed).
 
 ## Run Locally
