@@ -12,7 +12,8 @@
         "prettier:check": "prettier -c .",
         "prettier:write": "prettier -w .",
         "lint:check": "eslint .",
-        "lint:write": "eslint --fix ."
+        "lint:write": "eslint --fix .",
+        "test": "vitest"
     },
     "dependencies": {
         "react": "^18.2.0",
@@ -22,6 +23,8 @@
         "@commitlint/cli": "^17.5.0",
         "@commitlint/config-conventional": "^17.4.4",
         "@commitlint/cz-commitlint": "^17.5.0",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^14.0.0",
         "@types/react": "^18.0.28",
         "@types/react-dom": "^18.0.11",
         "@typescript-eslint/eslint-plugin": "^5.43.0",
@@ -36,6 +39,7 @@
         "eslint-plugin-react": "^7.32.2",
         "eslint-plugin-react-hooks": "^4.6.0",
         "husky": "^8.0.0",
+        "jsdom": "^21.1.1",
         "prettier": "^2.8.7",
         "typescript": "*",
         "vite": "^4.2.0",
